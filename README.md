@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QUERAGEOUS Barber School
 
-## Getting Started
+A professional barber school website showcasing comprehensive barbering education programs in Houston, TX.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎨 **Responsive Design** - Works perfectly on all devices
+- 📱 **Mobile-First** - Optimized for mobile users
+- 🎯 **Interactive Elements** - Smooth animations and hover effects
+- 📞 **Contact Integration** - Direct phone and social media links
+- 🖼️ **Image Gallery** - Professional barbering work showcase
+- 📝 **Contact Forms** - Enrollment and newsletter signup
+- 🔗 **Social Media** - Instagram and Facebook integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **HTML5** - Semantic markup
+- **CSS3** - Custom styling with animations
+- **Vanilla JavaScript** - Interactive functionality
+- **Node.js** - Local development server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Development
 
-## Learn More
+1. Clone the repository
+2. Run the local server:
+   ```bash
+   node server.js
+   ```
+3. Open http://localhost:3000 in your browser
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is a static website that can be deployed to:
+- Vercel (recommended)
+- Netlify
+- GitHub Pages
+- Any static hosting service
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+- **Phone**: (346) 262-5367
+- **Address**: 17719 Kuykendahl Rd, Spring, TX 77379
+- **Instagram**: [@querageousbbschool](https://www.instagram.com/querageousbbschool?igsh=YzJmMDk3MWM5Y2Yz)
+- **Facebook**: [QUERAGEOUS Barber School](https://www.facebook.com/share/1EJHR7fwEE/?mibextid=wwXIfr)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
