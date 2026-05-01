@@ -969,3 +969,76 @@ html {
         font-size: 0.8rem;
     }
 }
+
+/* Catalog Section */
+.catalog {
+    background: #f5f2ed;
+    border-top: 1px solid rgba(201, 169, 97, 0.2);
+    border-bottom: 1px solid rgba(201, 169, 97, 0.2);
+}
+
+.catalog-viewer {
+    max-width: 980px;
+    margin: 0 auto 2.5rem;
+    border: 1px solid rgba(201, 169, 97, 0.4);
+    background: #fafaf8;
+    box-shadow: 0 20px 60px rgba(26, 26, 26, 0.15);
+    overflow: hidden;
+}
+
+.catalog-frame {
+    width: 100%;
+    height: 780px;
+    border: 0;
+    display: block;
+    background: #1a1a1a;
+}
+
+.catalog-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.catalog-actions .btn-primary,
+.catalog-actions .btn-secondary {
+    padding: 0.9rem 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid #c9a961;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.catalog-actions .btn-primary {
+    background: #c9a961;
+    color: #1a1a1a;
+}
+.catalog-actions .btn-primary:hover {
+    background: #b87333;
+    color: #fafaf8;
+    border-color: #b87333;
+}
+
+.catalog-actions .btn-secondary {
+    background: transparent;
+    color: #1a1a1a;
+}
+.catalog-actions .btn-secondary:hover {
+    background: #1a1a1a;
+    color: #c9a961;
+    border-color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+    .catalog-frame { height: 520px; }
+    .catalog-actions { flex-direction: column; align-items: stretch; }
+    .catalog-actions .btn-primary,
+    .catalog-actions .btn-secondary { text-align: center; }
+}
